@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayan | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">AYAN</h1>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Hi, I'm <span>Ayan</span></h2>
+    <p>A passionate Frontend Developer building clean, fast, and responsive websites.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+      <h3>🌐 WebVerse Website</h3>
+      <p>A fully responsive business website using HTML, CSS, and JavaScript.</p>
+      <a href="https://ayan8787.github.io/webversestudio/" target="_blank">Live Site</a>
+      
+    </div>
+
+    <div class="card">
+      <h3>🎨 Portfolio Website</h3>
+      <p>This personal portfolio you're viewing now. Built with pure HTML, CSS, and JS.</p>
+      <a href="#">Live Site</a>
+     
+    </div>
+
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Ayan, a frontend web developer with a strong passion for building interactive and responsive websites. I love turning ideas into reality through code and design.</p>
+    <p>My core stack includes <strong>HTML, CSS, JavaScript</strong>, and I’m also exploring <strong>React</strong> for modern UI development.</p>
+    <a href="resume pdf.pdf" download class="btn">⬇ Download CV</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox">ayan941786@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918950600179">+91 8950600179</a></p>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>© 2025 Ayan. All rights reserved.</p>
+      <p>Frontend Developer focused on modern, responsive, and accessible web design.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
